@@ -2,6 +2,16 @@
 Batch LOD generation and FBX export for Unreal Engine and Unity pipelines, built for game artists.
 
 ---
+## Changelog
+
+### v1.1.0
+- Fixed FBX export failing with Blender-relative paths (//)
+- Fixed export crash when destination folder doesn't exist
+- Added validation for empty export path field
+
+### v1.0.0
+- Initial release
+---
 
 ## Features
 - Generate LOD0 through LOD6 in one click for any number of selected meshes
